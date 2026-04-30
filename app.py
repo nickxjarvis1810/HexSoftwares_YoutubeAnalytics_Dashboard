@@ -5,7 +5,11 @@ import numpy as np
 
 # ---------------- API KEY ----------------
 import os
-API_KEY = os.getenv("YOUTUBE_API_KEY") # ENTER YOUR API KEY
+
+API_KEY = os.getenv("YOUTUBE_API_KEY")
+
+if not API_KEY:
+    API_KEY = "AIzaSyA7MyhFciBwYVlVdqIhg-Nbg33u3_2TFKs"# ENTER YOUR API KEY
 
 youtube = build('youtube', 'v3', developerKey=API_KEY)
 
