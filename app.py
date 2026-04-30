@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 
 # ---------------- API KEY ----------------
-API_KEY = ""   # ENTER YOUR API KEY
+API_KEY = "AIzaSyCJEiF8Egyy-k7SbnnNQAHCV049Dx5GuXc"   # ENTER YOUR API KEY
 
 youtube = build('youtube', 'v3', developerKey=API_KEY)
 
