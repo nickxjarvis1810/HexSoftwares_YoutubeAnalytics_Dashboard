@@ -54,7 +54,7 @@ youtube-analytics-dashboard/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/youtube-analytics-dashboard.git
+git clone https://github.com/nickxjarvis1810/youtube-analytics-dashboard.git
 cd youtube-analytics-dashboard
 ```
 
